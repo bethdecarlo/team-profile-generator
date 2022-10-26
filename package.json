@@ -1,0 +1,29 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "employee profile generator",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib",
+      "test": "test"
+    },
+    "scripts": {
+      "test": "jest --verbose test/*"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bethdecarlo/team-profile-generator"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bethdecarlo/team-profile-generator/issues"
+    },
+    "homepage": "https://github.com/bethdecarlo/team-profile-generator#readme",
+    "dependencies": {
+      "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+    "jest": "^26.5.2"
+    }
+  }
