@@ -1,4 +1,5 @@
 //require path and fs
+
 const path = require("path");
 const fs = require("fs");
 
@@ -6,17 +7,22 @@ const templatesDir = path.resolve(__dirname, "../templates");
 
 const render = employees => {
   const html = [];
-  //renders manager input to hmtl 
+  
+  
+//renders manager input to hmtl 
   html.push(...employees
     .filter(employee => employee.getRole() === "Manager")
     .map(manager => renderManager(manager))
   );
-  //renders engineer input to html
+  
+//renders engineer input to html
   html.push(...employees
     .filter(employee => employee.getRole() === "Engineer")
     .map(engineer => renderEngineer(engineer))
   );
-  //renders intern input to html
+  
+ //renders intern input to html
+ 
   html.push(...employees
     .filter(employee => employee.getRole() === "Intern")
     .map(intern => renderIntern(intern))
