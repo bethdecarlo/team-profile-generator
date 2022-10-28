@@ -12,7 +12,7 @@
   * [Questions](#questions)
   * [License](#license)
   ## Installation
-  * download repository  
+  * download files for the application from this repository  
   * `npm install`
   * `node index.js`
   ## Usage
